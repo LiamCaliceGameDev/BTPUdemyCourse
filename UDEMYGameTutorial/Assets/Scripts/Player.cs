@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         moveAmount = moveInput.normalized * speed;
 
-        if (moveInput.x != 0 || moveInput.y != 0)
+        if (moveInput != Vector2.zero)
         {
             anim.SetBool("isRunning", true);
         }
