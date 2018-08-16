@@ -1236,6 +1236,55 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1954217722
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4108834626991248, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 22.158037
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108834626991248, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108834626991248, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.085117646
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108834626991248, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108834626991248, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108834626991248, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108834626991248, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108834626991248, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1468322549868622, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 61731331564639286, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+    - {fileID: 50330844717407674, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+    - {fileID: 114507817076931974, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 82b1649d54f1b5d4fbadf8202a680d0a, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &1982166032 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4133402004025232, guid: 868250a161ec34cafa116a1f0c4d069f,
