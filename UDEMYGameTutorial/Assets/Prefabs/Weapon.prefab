@@ -132,7 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1666592380987928, guid: d8e2ae3d639b640df8ff8eb85da612d2, type: 2}
   shotPoint: {fileID: 4068558857913888}
-  timeBetweenShots: 0.5
+  timeBetweenShots: 0.75
 --- !u!212 &212382076595139326
 SpriteRenderer:
   m_ObjectHideFlags: 1

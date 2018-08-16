@@ -53,7 +53,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 70
-  lifeTime: 5
+  lifeTime: 0.5
+  explosion: {fileID: 1197135177186070, guid: ebf2e4def6e62d04a99bc9ca92be4e30, type: 2}
 --- !u!212 &212351689460513866
 SpriteRenderer:
   m_ObjectHideFlags: 1
