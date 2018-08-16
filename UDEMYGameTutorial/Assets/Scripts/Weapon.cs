@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour {
+public class Weapon : MonoBehaviour
+{
 
     public GameObject projectile;
     public Transform shotPoint;
@@ -31,4 +32,4 @@ public class Weapon : MonoBehaviour {
 
     }
 
-}
+}
