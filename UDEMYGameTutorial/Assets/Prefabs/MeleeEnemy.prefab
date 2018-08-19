@@ -330,7 +330,10 @@ MonoBehaviour:
   health: 3
   player: {fileID: 0}
   speed: 20
-  stopDistance: 10
+  timeBetweenAttacks: 1
+  damage: 1
+  stopDistance: 7
+  meleeAttackSpeed: 4
 --- !u!212 &212045805890729740
 SpriteRenderer:
   m_ObjectHideFlags: 1

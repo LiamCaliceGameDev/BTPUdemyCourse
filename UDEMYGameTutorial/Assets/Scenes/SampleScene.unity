@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361540618}
   - component: {fileID: 361540617}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eye Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566829204}
   - component: {fileID: 566829203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arm Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -397,7 +397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 620770076}
   - component: {fileID: 620770075}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arm Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,6 +501,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1265527992542296, guid: 868250a161ec34cafa116a1f0c4d069f, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282044579821870, guid: 868250a161ec34cafa116a1f0c4d069f, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631884150658620, guid: 868250a161ec34cafa116a1f0c4d069f, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 868250a161ec34cafa116a1f0c4d069f, type: 2}
   m_IsPrefabParent: 0
@@ -560,7 +572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879605136}
   - component: {fileID: 879605135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,7 +702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1040339501}
   - component: {fileID: 1040339500}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -764,7 +776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1156693494}
   - component: {fileID: 1156693493}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -969,7 +981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1232975918}
   - component: {fileID: 1232975917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eye Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1043,7 +1055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698479433}
   - component: {fileID: 1698479432}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1171,7 +1183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1828090315}
   - component: {fileID: 1828090316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1339,7 @@ GameObject:
   - component: {fileID: 2143019238}
   - component: {fileID: 2143019237}
   - component: {fileID: 2143019239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1402,6 +1414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+  health: 3
 --- !u!61 &2143019239
 BoxCollider2D:
   m_ObjectHideFlags: 0

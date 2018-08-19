@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     private Vector2 moveAmount;
     private Animator anim;
 
+    public int health;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -34,6 +36,15 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveAmount * Time.fixedDeltaTime);
+    }
+
+    public void TakeDamage(int amount)
+    {
+        health -= amount;
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
 }

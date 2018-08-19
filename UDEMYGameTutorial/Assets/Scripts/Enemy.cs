@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour {
     public Transform player;
 
     public float speed;
+    public float timeBetweenAttacks;
+    public int damage;
 
     private void Start()
     {
