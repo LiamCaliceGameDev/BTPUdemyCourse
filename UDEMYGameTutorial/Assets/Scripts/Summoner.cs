@@ -19,6 +19,11 @@ public class Summoner : Enemy {
 
     public float attackSpeed;
 
+    public Enemy enemyToSummon;
+    public float timeBetweenSummons;
+
+    private float summonTime;
+
 
     public override void Start()
     {
@@ -40,6 +45,13 @@ public class Summoner : Enemy {
                 anim.SetBool("isRunning", true);
             } else {
                 anim.SetBool("isRunning", false);
+
+                if (Time.time >= summonTime)
+                {
+                    summonTime = Time.time + timeBetweenSummons;
+                    anim.SetTrigger("summon");
+                }
+
             }
 
             if (Vector2.Distance(transform.position, player.position) <= stopDistance)
@@ -56,6 +68,13 @@ public class Summoner : Enemy {
         }
     }
 
+
+    public void Summon() {
+        if (player != null)
+        {
+            Instantiate(enemyToSummon, transform.position, transform.rotation);
+        }
+    }
 
 
     IEnumerator Attack()
