@@ -280,6 +280,17 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114733243448835644, guid: f63ea55d6a3e94c0b95d1a6fe79f06f4,
+        type: 2}
+      propertyPath: enemyToSummon
+      value: 
+      objectReference: {fileID: 114388068210246210, guid: 236714f6b488a954e8db790b576f6341,
+        type: 2}
+    - target: {fileID: 114733243448835644, guid: f63ea55d6a3e94c0b95d1a6fe79f06f4,
+        type: 2}
+      propertyPath: timeBetweenSummons
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f63ea55d6a3e94c0b95d1a6fe79f06f4, type: 2}
   m_IsPrefabParent: 0
